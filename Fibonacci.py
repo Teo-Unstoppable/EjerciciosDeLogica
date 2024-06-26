@@ -13,10 +13,11 @@ num_list = []
 actual_num = 0
 anterior_num = 0
 
-while  len(num_list) < 51:
+while len(num_list) < 51:
     actual_num = x + y
     anterior_num = x
     x = actual_num
     y = anterior_num
     num_list.append(actual_num)
+
 print(list(enumerate(num_list)))
